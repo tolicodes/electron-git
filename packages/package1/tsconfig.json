@@ -1,8 +1,0 @@
-{
-  "compilerOptions": {
-    "preserveSymlinks": true,
-    "outDir": "dist",
-    "esModuleInterop": true
-  },
-  "exclude": ["__tests__"]
-}
