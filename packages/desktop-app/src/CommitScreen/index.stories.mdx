@@ -1,0 +1,40 @@
+import { Meta, Story, Preview, Source } from "@storybook/addon-docs/blocks";
+
+import CommitScreen from "./";
+
+<Meta title="CommitScreen" component={CommitScreen} />
+
+<Preview>
+  <Story
+    name="Basic"
+    parameters={{
+      jest: ["CommitScreen/__tests__/index.ts"],
+    }}
+  >
+    <CommitScreen
+      files={[
+        {
+          name: "/Users/Sites/project/",
+          children: [
+            {
+              name: "/folder",
+              children: [
+                {
+                  name: "/file.js",
+                },
+              ],
+            },
+            {
+              name: "/folder2",
+              children: [
+                {
+                  name: "/file2.js",
+                },
+              ],
+            },
+          ],
+        },
+      ]}
+    />
+  </Story>
+</Preview>

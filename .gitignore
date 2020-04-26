@@ -117,3 +117,6 @@ packages/website/build/
 packages/website/yarn.lock
 packages/website/node_modules
 packages/website/i18n/*
+
+.jest-test-results.json
+  
