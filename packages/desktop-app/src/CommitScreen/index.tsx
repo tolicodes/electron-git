@@ -5,6 +5,7 @@ import { v4 as uuid } from "uuid";
 import "./treeStyle.css";
 
 const forEachNodeInTree = (tree, mutationFunc) => {
+  console.log(tree);
   return tree.map((node) => {
     if (node.children) {
       node.children = forEachNodeInTree(node.children, mutationFunc);
