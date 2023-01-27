@@ -28,7 +28,7 @@
     "react-router-dom": "^5.1.2",
     "react-scripts": "3.4.1",
     "react-treebeard": "^3.2.4",
-    "simple-git": "^1.132.0",
+    "simple-git": "^3.16.0",
     "typescript": "~3.7.2",
     "uuid": "^7.0.3"
   },
